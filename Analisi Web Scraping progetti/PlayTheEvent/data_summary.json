@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-01-06T01:12:54.879860",
+  "basic_stats": {
+    "total_events": 341,
+    "unique_users": 20,
+    "unique_sessions": 19,
+    "event_types": 6
+  },
+  "geographic": {
+    "countries": 5,
+    "cities": 12
+  },
+  "top_events": {
+    "page_view": 158,
+    "scroll": 129,
+    "session_start": 24,
+    "first_visit": 19,
+    "user_engagement": 10,
+    "form_start": 1
+  },
+  "device_info": {
+    "os_count": 5,
+    "browser_count": 2
+  }
+}
