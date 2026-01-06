@@ -34,9 +34,26 @@ Stakeholder: Team sviluppo, Organizzatori eventi, Partecipanti
 
 ---
 
+## 📁 Nuova Struttura Documentazione
+
+La documentazione è ora organizzata in **4 sezioni tematiche**:
+
+```
+Documentazione/
+├── 01_Fondamenti/              📚 Concetti base di Project Management
+├── 02_Metodologie/             🔄 Framework, Agile, Scrum, Kanban, etc.
+├── 03_Strumenti/               🛠️  WebAnalyticsAgent, Financial Manager, etc.
+├── 04_Progetti/                🎯 Pianificazione specifica per i 3 progetti
+└── INDEX.md                    📖 Questo file (guida di navigazione)
+```
+
+---
+
 ## 📖 Guide Disponibili
 
-### 1️⃣ [PROJECT_MANAGEMENT_GUIDE.md](PROJECT_MANAGEMENT_GUIDE.md)
+### 📚 **Sezione 1: Fondamenti** (`01_Fondamenti/`)
+
+#### [PROJECT_MANAGEMENT_GUIDE.md](01_Fondamenti/PROJECT_MANAGEMENT_GUIDE.md)
 **Guida Fondamentale (43KB)**
 
 **Cosa troverai:**
@@ -53,14 +70,11 @@ Stakeholder: Team sviluppo, Organizzatori eventi, Partecipanti
 - ✅ Vuoi capire quale metodologia usare (Waterfall vs Agile)
 - ✅ Hai bisogno di template (WBS, Gantt, Risk Register)
 
-**Esempi pratici per i tuoi progetti:**
-- FedericoCalo: Lancio nuovo sito portfolio → Planning completo
-- CasaDelleMagnolie: Progetto restyling property → Budget e timeline
-- PlayTheEvent: Sviluppo nuova feature → Scrum sprint planning
-
 ---
 
-### 2️⃣ [AGILE_SCRUM_GUIDE.md](AGILE_SCRUM_GUIDE.md)
+### 🔄 **Sezione 2: Metodologie** (`02_Metodologie/`)
+
+#### [AGILE_SCRUM_GUIDE.md](02_Metodologie/AGILE_SCRUM_GUIDE.md)
 **Deep Dive Metodologie Agile (19KB)**
 
 **Cosa troverai:**
@@ -79,386 +93,163 @@ Stakeholder: Team sviluppo, Organizzatori eventi, Partecipanti
 - ✅ Vuoi rilasci iterativi e feedback rapido
 - ✅ Team cross-funzionale auto-organizzato
 
-**Applicazioni concrete:**
-```
-FedericoCalo.dev:
-- Sprint 2 settimane
-- Solo developer (tutti i ruoli)
-- User stories per feature portfolio
-
-PlayTheEvent.com:
-- Sprint 1-2 settimane
-- Team: Frontend, Backend, Design
-- Daily standup async
-- Sprint demo con stakeholder
-
-CasaDelleMagnolie.com:
-- Kanban più adatto (operations continue)
-- Scrum per progetti specifici (restyling, nuove feature sito)
-```
-
 ---
 
-### 3️⃣ [RISK_MANAGEMENT_GUIDE.md](RISK_MANAGEMENT_GUIDE.md)
-**Gestione Completa dei Rischi**
+#### [RISK_MANAGEMENT_GUIDE.md](02_Metodologie/RISK_MANAGEMENT_GUIDE.md)
+**Gestione Rischi Completa (38KB)**
 
 **Cosa troverai:**
-- Processo Risk Management (6 fasi)
-- Identificazione: Brainstorming, SWOT, Delphi, Checklist
-- Analisi Qualitativa: Matrice Probabilità-Impatto
-- Analisi Quantitativa: EMV, Decision Tree, Monte Carlo
-- Strategie risposta: Avoid, Mitigate, Transfer, Accept
+- Risk Identification, Analysis, Response Planning
 - Risk Register template
-- Monitoring e KRI (Key Risk Indicators)
+- Qualitative vs Quantitative analysis
+- Contingency planning
+- Project-specific risk case studies
 
 **Quando usarla:**
-- ✅ Inizio progetto (risk identification)
-- ✅ Decisione importante con incertezza
-- ✅ Budget/timeline limitati
-- ✅ Weekly/monthly risk review
-
-**Rischi comuni per progetto:**
-
-**FedericoCalo.dev:**
-```
-R001: SEO scarso limita visibilità
-      Probabilità: 60% | Impatto: Alto
-      Risposta: MITIGATE (SEO audit, content strategy)
-
-R002: Pochi progetti portfolio
-      Probabilità: 50% | Impatto: Medio
-      Risposta: MITIGATE (case studies, side projects)
-
-R003: Competitor con più esperienza
-      Probabilità: 70% | Impatto: Medio
-      Risposta: ACCEPT (focus nicchia)
-```
-
-**CasaDelleMagnolie.com:**
-```
-R101: Occupancy <40% causa perdite
-      Probabilità: 50% | Impatto: Alto
-      Risposta: MITIGATE (dynamic pricing, multi-platform)
-
-R102: Recensioni negative danneggiano bookings
-      Probabilità: 30% | Impatto: Alto
-      Risposta: MITIGATE (quality checklist, 24/7 support)
-
-R103: Danni proprietà da ospiti
-      Probabilità: 40% | Impatto: Medio
-      Risposta: TRANSFER (assicurazione, deposito)
-```
-
-**PlayTheEvent.com:**
-```
-R201: Scalabilità tech non gestisce crescita
-      Probabilità: 40% | Impatto: Alto
-      Risposta: MITIGATE (load testing, architecture review)
-
-R202: Competitor lancia feature simile prima
-      Probabilità: 60% | Impatto: Medio
-      Risposta: MITIGATE (MVP veloce, innovazione continua)
-
-R203: Churn rate alto (utenti non tornano)
-      Probabilità: 50% | Impatto: Alto
-      Risposta: MITIGATE (onboarding, engagement, analytics)
-```
+- ✅ Devi identificare rischi prima di iniziare
+- ✅ Progetto ha stakeholder o budget significativo
+- ✅ Timeline è critica
 
 ---
 
-### 4️⃣ [TEAM_LEADERSHIP_GUIDE.md](TEAM_LEADERSHIP_GUIDE.md)
-**Leadership e Gestione Team**
+#### [TEAM_LEADERSHIP_GUIDE.md](02_Metodologie/TEAM_LEADERSHIP_GUIDE.md)
+**Leadership & Team Management (56KB)**
 
 **Cosa troverai:**
-- Stili di leadership: Autocratic, Democratic, Servant, Transformational, Situational
-- Teorie motivazione: Maslow, Herzberg, McGregor, DRIVE (Autonomy, Mastery, Purpose)
-- Team Building: Tuckman model (Forming → Storming → Norming → Performing)
-- Gestione conflitti: Thomas-Kilmann (Competing, Collaborating, Compromising, Avoiding, Accommodating)
-- Performance Management: SMART goals, OKR, 1-on-1, feedback (SBI model, Radical Candor)
-- Emotional Intelligence: Self-awareness, Self-management, Social awareness, Relationship management
-- Coaching & Mentoring: GROW model
-- Remote Team Leadership
-- Delegation: 5 livelli
+- Stili di leadership (Servant, Transformational, etc.)
+- Team dynamics e Tuckman model
+- Conflict resolution
+- Motivation e engagement
+- Diverse team management
 
 **Quando usarla:**
-- ✅ Gestisci team (anche piccolo o remoto)
-- ✅ Conflict nel team
-- ✅ Motivazione bassa
-- ✅ Performance review
-- ✅ Onboarding nuovo membro
-- ✅ Remote/distributed team
+- ✅ Managi un team (anche remoto)
+- ✅ Hai problemi di comunicazione
+- ✅ Vuoi migliorare team performance
 
-**Applicazioni per progetto:**
+---
 
-**FedericoCalo.dev (Solo/Freelance):**
-```
-LEADERSHIP DI SÉ:
-- Self-management e disciplina
-- Motivazione intrinseca (DRIVE framework)
+#### [TIME_PRODUCTIVITY_GUIDE.md](02_Metodologie/TIME_PRODUCTIVITY_GUIDE.md)
+**Time Management & Productivity (56KB)**
+
+**Cosa troverai:**
+- Time management metodologie (GTD, Pomodoro, Time Blocking)
+- Productivity tools e setup
+- Scheduling per diversi tipi di work
+- Energy management
 - Remote work best practices
-- Client relationship management
-
-SCALING (quando assumi contractor):
-- Delegation efficace
-- Clear communication
-- Remote collaboration
-- Performance expectations
-```
-
-**CasaDelleMagnolie.com (Team Piccolo):**
-```
-TEAM:
-- Property Manager (Maria)
-- Marketing (Carlo, part-time)
-- Manutenzione (Luca, on-call)
-
-STILE: Servant Leadership
-- "Come posso aiutarti a eccellere?"
-- Rimuovere ostacoli
-- Empowerment
-
-MOTIVAZIONE:
-- Bonus per 5-star reviews
-- Autonomia decisionale
-- Riconoscimento pubblico
-```
-
-**PlayTheEvent.com (Team Sviluppo):**
-```
-TEAM:
-- Frontend developers
-- Backend developers
-- UX/UI designer
-- Product Owner
-- QA tester (potenziale)
-
-STILE: Mix Situational + Agile Leadership
-- Senior dev → Delegating
-- Junior dev → Coaching
-- Scrum Master mindset
-
-REMOTE PRACTICES:
-- Daily async standup
-- Weekly sync video
-- Pair programming remoto
-- Virtual team building
-```
-
----
-
-### 5️⃣ [TIME_PRODUCTIVITY_GUIDE.md](TIME_PRODUCTIVITY_GUIDE.md)
-**Time Management e Produttività**
-
-**Cosa troverai:**
-- Matrici prioritizzazione: Eisenhower (Urgente-Importante), MoSCoW, Value vs Effort
-- Tecniche time management:
-  * Time Blocking (Cal Newport)
-  * Pomodoro Technique (25/5)
-  * GTD - Getting Things Done (David Allen)
-  * Eat That Frog (Brian Tracy)
-  * Two-Minute Rule
-- Framework produttività:
-  * Deep Work (Cal Newport)
-  * The One Thing (Gary Keller)
-  * Personal Kanban
-- Energy Management: Fisica, Emotiva, Mentale, Spirituale
-- Email & Communication management
-- Meeting management
-- Procrastination e blocchi
-- Work-life balance
-- Tools & automazione
 
 **Quando usarla:**
-- ✅ Ti senti sempre "di corsa"
-- ✅ Troppe interruzioni
-- ✅ Email/meeting invadono giornata
-- ✅ Difficoltà concentrazione
-- ✅ Burnout risk
-- ✅ Work-life balance problematico
-
-**Sistemi personalizzati per progetto:**
-
-**FedericoCalo.dev (Freelance Solo):**
-```
-DAILY STRUCTURE:
-06:00-09:00 → Deep Work Block 1 (coding, writing)
-09:00-09:30 → Email batch + Admin
-09:30-12:00 → Client Work
-12:00-13:00 → Lunch + Walk
-13:00-14:00 → Admin + Shallow work
-14:00-17:00 → Deep Work Block 2 or Meetings
-17:00-17:30 → Shutdown ritual
-17:30+      → Personal time (strict)
-
-TOOLS:
-- Todoist (task management)
-- Toggl (time tracking per cliente)
-- Forest (pomodoro + phone lock)
-- Notion (second brain)
-
-WEEKLY:
-- Tue/Thu: Deep work days (NO meetings)
-- Mon/Wed/Fri: Meetings OK
-- Sabato: 4h overflow se necessario
-- Domenica: COMPLETO OFF
-```
-
-**CasaDelleMagnolie.com (Property Manager):**
-```
-DAILY STRUCTURE (Flessibile):
-08:00-09:00 → Morning review (arrivals, maintenance)
-09:00-12:00 → Operations (check-out, pulizie, maintenance)
-12:00-13:00 → Lunch
-13:00-14:00 → Communications (guest inquiries, templates)
-14:00-17:00 → Strategic (marketing, pricing, analytics)
-
-PRIORITIZATION:
-Q1 (Urgente+Importante): Guest emergency, booking inquiry
-Q2 (Importante): Listing optimization, marketing
-Q3 (Urgente): Delegate to cleaner/maintenance
-Q4 (Sprechi): Eliminate
-
-SEASONALITY:
-- Alta stagione (Jun-Aug): Operations focus, minimal strategic
-- Bassa stagione (Nov-Mar): Strategic projects, recovery, learning
-
-TOOLS:
-- Trello (Kanban: Backlog → Doing → Done)
-- Templates email (60% time saved)
-- PriceLabs (dynamic pricing automation)
-```
-
-**PlayTheEvent.com (Team Tech):**
-```
-TEAM STRUCTURE:
-- Daily async standup (Slack, by 10:00)
-- Deep work blocks protetti (no meeting 9-12)
-- Meeting block (14:00-17:00, max 3h/giorno)
-- Weekly planning (Lunedì)
-- Sprint retrospective (Venerdì)
-
-PERSONAL PRODUCTIVITY:
-- Time blocking per developer
-- Pomodoro durante coding
-- GTD per backlog management
-- Focus mode (Freedom app)
-
-COMMUNICATION:
-- Default ASYNC (Slack, Notion, Loom)
-- SYNC solo per: brainstorm, decisioni complesse, 1-on-1
-- Email: 2× al giorno batch (10:00, 15:00)
-- Meeting-free days (almeno 1/settimana)
-
-METRICS:
-- Velocity (story points per sprint)
-- Lead time (idea → production)
-- Deployment frequency
-- Individual focus time (target: 4h/giorno)
-```
+- ✅ Senti di avere poco tempo
+- ✅ Troppi task, non sai da dove iniziare
+- ✅ Vuoi ottimizzare il tuo workflow
 
 ---
 
-### 6️⃣ [FINANCIAL_MANAGEMENT_GUIDE.md](FINANCIAL_MANAGEMENT_GUIDE.md)
-**Gestione Finanziaria Progetti**
+#### [DESIGN_THINKING_GUIDE.md](02_Metodologie/DESIGN_THINKING_GUIDE.md) ⭐ **NEW!**
+**Design Thinking - Innovazione User-Centered (30KB)**
 
 **Cosa troverai:**
-- Tracking costi (one-time e ricorrenti)
-- Tracking ricavi (per fonte e tipo)
-- Calcolo ROI, Profit, Break-even
-- Forecast (proiezioni 6-12 mesi)
-- Metriche specifiche:
-  * FedericoCalo: Revenue per cliente, hourly rate effective
-  * CasaDelleMagnolie: Occupancy Rate, ADR, RevPAR, commissioni piattaforme
-  * PlayTheEvent: MRR, Churn, CAC, LTV
-- Visualizzazioni automatiche (4 grafici)
-- Report completi PDF/TXT
+- 5 fasi del Design Thinking (Empatize, Define, Ideate, Prototype, Test)
+- Empathy mapping e user personas
+- Problem definition (HMW statements)
+- Ideation techniques (brainstorming, forced connections)
+- Rapid prototyping e user testing
+- Applicazioni concrete per FedericoCalo, CasaDelleMagnolie, PlayTheEvent
+- Integration con Agile + Project Management
+- Template e strumenti
 
 **Quando usarla:**
-- ✅ Setup progetto (budget iniziale)
-- ✅ Tracking mensile costi/ricavi
-- ✅ Decisioni investimento (vale la pena?)
-- ✅ Review trimestrale performance
-- ✅ Presentazione a stakeholder/investitori
+- ✅ Nuovo progetto da zero (capire vero problema)
+- ✅ Vuoi innovare, non solo replicare
+- ✅ Feature improvement (portfolio, booking, UX)
+- ✅ User feedback cruciale
+- ✅ Rischi di building wrong thing
+- ✅ Want to fail fast, learn faster
 
-**Financial data per progetto:**
-
-**FedericoCalo.dev:**
-```python
-# Esempio financial_data.json
-{
-  "one_time_costs": [
-    {"name": "Dominio .dev", "amount": 36, "category": "Infrastructure"},
-    {"name": "Logo Design", "amount": 150, "category": "Branding"}
-  ],
-  "recurring_costs": [
-    {"name": "Hosting VPS", "amount": 15, "frequency": "monthly"},
-    {"name": "Google Workspace", "amount": 6, "frequency": "monthly"}
-  ],
-  "revenue_streams": [
-    {"name": "Progetto Cliente A", "amount": 3000, "type": "project"},
-    {"name": "Consulenza mensile Cliente B", "amount": 1500, "type": "retainer"}
-  ]
-}
-
-METRICHE:
-- ROI progetto: (Ricavi - Costi) / Costi × 100
-- Break-even: Quando profitto = investimento iniziale
-- Hourly rate effective: Ricavi / Ore lavorate
-```
-
-**CasaDelleMagnolie.com:**
-```python
-# Metriche Vacation Rental specifiche
-{
-  "bookings": [
-    {
-      "checkin": "2025-07-05",
-      "nights": 7,
-      "price": 1200,
-      "platform": "Booking.com",  # Auto-calcola commissione 15%
-      "guests": 6
-    }
-  ],
-  "occupancy": {
-    "total_weeks": 52,
-    "booked_weeks": 31.2
-  }
-}
-
-METRICHE:
-- Occupancy Rate: 60% (31.2/52)
-- ADR (Average Daily Rate): €1200/7 = €171/notte
-- RevPAR: Ricavo totale / 52 settimane
-- Commissioni totali piattaforme
-- Profitto netto dopo costi
-```
-
-**PlayTheEvent.com (SaaS):**
-```python
-# Metriche SaaS specifiche
-{
-  "subscriptions": [
-    {"plan": "Basic", "mrr": 29, "users": 150},
-    {"plan": "Pro", "mrr": 79, "users": 45},
-    {"plan": "Enterprise", "mrr": 299, "users": 8}
-  ],
-  "churn": {
-    "month": "2025-12",
-    "churned_users": 12,
-    "total_users": 203
-  }
-}
-
-METRICHE:
-- MRR (Monthly Recurring Revenue)
-- ARR (Annual Recurring Revenue)
-- Churn Rate: Utenti persi / Totale utenti
-- CAC (Customer Acquisition Cost)
-- LTV (Lifetime Value)
-- LTV:CAC ratio (target >3)
-```
+**Output:**
+- User research insights
+- Validated problem statement
+- 3-5 idee testate con utenti
+- Prototype ready per development
+- High confidence nel progetto
 
 ---
+
+### 🛠️ **Sezione 3: Strumenti** (`03_Strumenti/`)
+
+#### [WEBANALYTICSAGENT_GUIDE.md](03_Strumenti/WEBANALYTICSAGENT_GUIDE.md)
+**🆕 Guida WebAnalyticsAgent - Come Usare (11KB)**
+
+**Cosa troverai:**
+- Setup WebAnalyticsAgent per ogni progetto
+- Esportare dati da Google Analytics
+- Analizzare traffico web (analytics_analyzer.py)
+- Generare grafici automatici (visualize_analytics.py)
+- Ottenere raccomandazioni strategiche (strategic_analysis.py)
+- Casi d'uso pratici per FedericoCalo, CasaDelleMagnolie, PlayTheEvent
+- Troubleshooting
+
+**Quando usarla:**
+- ✅ Vuoi analizzare il traffico del tuo sito
+- ✅ Devi capire da dove arrivano i visitatori
+- ✅ Vuoi ottimizzare conversion rate
+- ✅ Devi creare report GA automatici
+
+**Output:**
+- Grafici web analytics (PNG)
+- JSON strutturato con metriche
+- Report strategico con raccomandazioni
+
+---
+
+#### [FINANCIAL_MANAGEMENT_GUIDE.md](03_Strumenti/FINANCIAL_MANAGEMENT_GUIDE.md)
+**Budget, Revenue, ROI Tracking (10KB)**
+
+**Cosa troverai:**
+- Budget planning e tracking
+- Revenue projection
+- Cost management
+- ROI calculation
+- Financial reporting templates
+- Progetto-specifici (Freelance vs Vacation Rental vs SaaS)
+
+**Quando usarla:**
+- ✅ Devi creare budget per progetto
+- ✅ Vuoi tracciare spending vs forecast
+- ✅ Devi calcolare profittabilità
+
+---
+
+#### 📁 **Sottocartelle Strumenti:**
+
+- **WebAnalyticsAgent/** - Moduli Python per analytics
+- **Analytics_Tools/** - Script di supporto
+
+---
+
+### 🎯 **Sezione 4: Progetti** (`04_Progetti/`)
+
+**Framework e planning specifici per i 3 progetti:**
+
+#### FedericoCalo.dev (Portfolio & Freelance)
+- Metodologia: GTD + Time Blocking
+- Frequenza decisionale: Giornaliera (sprints auto-organizzati)
+- Metriche chiave: Revenue/mese, Client satisfaction, Hourly rate
+
+#### CasaDelleMagnolie.com (Vacation Rental)
+- Metodologia: Kanban (operations) + Scrum (progetti)
+- Frequenza decisionale: Settimanale (booking review)
+- Metriche chiave: Occupancy rate, ADR (Average Daily Rate), RevPAR
+
+#### PlayTheEvent.com (SaaS)
+- Metodologia: Scrum (1-2 week sprints)
+- Frequenza decisionale: Dopo ogni sprint
+- Metriche chiave: MRR, Churn rate, CAC (Customer Acquisition Cost)
+
+---
+
+
 
 ## 🗺️ Roadmap di Utilizzo
 
