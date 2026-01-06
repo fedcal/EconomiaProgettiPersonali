@@ -1,0 +1,58 @@
+{
+  "project_name": "Web Analytics Analysis System",
+  "description": "Agente autonomo per l'analisi di web analytics",
+  "version": "1.0.0",
+  
+  "data_config": {
+    "data_dir": "./data",
+    "supported_formats": ["csv", "json", "ga4", "log"],
+    "max_file_size_mb": 500
+  },
+  
+  "analysis_config": {
+    "modules": [
+      "traffic",
+      "users",
+      "conversions",
+      "engagement",
+      "geographic",
+      "device",
+      "behavioral"
+    ],
+    "enable_anomaly_detection": true,
+    "enable_predictive_analytics": false
+  },
+  
+  "report_config": {
+    "output_dir": "./reports",
+    "formats": ["html", "markdown", "json", "pdf"],
+    "default_format": "html",
+    "include_visualizations": true,
+    "include_recommendations": true
+  },
+  
+  "export_config": {
+    "output_dir": "./exports",
+    "formats": ["json", "csv"],
+    "default_format": "json"
+  },
+  
+  "thresholds": {
+    "high_bounce_rate": 50.0,
+    "low_conversion_rate": 2.0,
+    "high_abandonment_rate": 70.0,
+    "alert_on_anomalies": true
+  },
+  
+  "scheduling": {
+    "enable_scheduled_analysis": false,
+    "schedule_interval": "daily",
+    "schedule_time": "02:00"
+  },
+  
+  "api_config": {
+    "enable_api": false,
+    "api_port": 5000,
+    "api_prefix": "/api/v1"
+  }
+}
