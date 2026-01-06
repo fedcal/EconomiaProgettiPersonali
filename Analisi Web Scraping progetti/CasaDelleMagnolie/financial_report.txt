@@ -1,0 +1,72 @@
+================================================================================
+REPORT FINANZIARIO - Casa delle Magnolie
+Business Model: Affitto Turistico Vacanze
+================================================================================
+Data: 2026-01-03
+
+RIEPILOGO FINANZIARIO
+--------------------------------------------------------------------------------
+Costi totali:    €3,250.00
+Ricavi totali:   €10,565.50
+Profitto netto:  €7,315.50
+ROI:             225.09%
+
+METRICHE VACATION RENTAL
+--------------------------------------------------------------------------------
+Tasso di occupazione:           18.96%
+Settimane prenotate:            9.9 / 52
+ADR (Tariffa Media Giornaliera):€171.74
+RevPAR (Ricavo per Settimana):  €227.88
+Numero prenotazioni:            11
+
+DISTRIBUZIONE RICAVI PER STAGIONE
+--------------------------------------------------------------------------------
+Alta Stagione (Giu-Set)........................... € 10,750.00 (101.7%)
+Media Stagione (Apr-Mag, Ott)..................... €  1,100.00 ( 10.4%)
+Bassa Stagione (Nov-Mar).......................... €      0.00 (  0.0%)
+
+DISTRIBUZIONE RICAVI PER PIATTAFORMA
+--------------------------------------------------------------------------------
+Booking.com....................................... €  3,950.00 ( 37.4%)
+Airbnb............................................ €  3,700.00 ( 35.0%)
+Direct............................................ €  2,750.00 ( 26.0%)
+VRBO.............................................. €  1,450.00 ( 13.7%)
+
+Commissioni totali pagate......................... €  1,284.50
+
+BREAKDOWN COSTI PER CATEGORIA
+--------------------------------------------------------------------------------
+Property.......................................... €  2,700.00 ( 83.1%)
+Utilities......................................... €  1,860.00 ( 57.2%)
+Maintenance....................................... €  1,200.00 ( 36.9%)
+Operations........................................ €    960.00 ( 29.5%)
+Marketing......................................... €    550.00 ( 16.9%)
+Insurance......................................... €    540.00 ( 16.6%)
+Infrastructure.................................... €    120.00 (  3.7%)
+
+COSTI OPERATIVI RICORRENTI
+--------------------------------------------------------------------------------
+Hosting sito web........................ €   10.00/monthly    (€120.00/anno)
+Assicurazione casa vacanze.............. €   45.00/monthly    (€540.00/anno)
+Pulizie dopo check-out.................. €   80.00/monthly    (€960.00/anno)
+Utenze (acqua, luce, gas)............... €  120.00/monthly    (€1,440.00/anno)
+Manutenzione ordinaria.................. €  100.00/monthly    (€1,200.00/anno)
+Internet/WiFi........................... €   35.00/monthly    (€420.00/anno)
+TOTALE COSTI ANNUALI.................... €4,680.00
+
+ANALISI OBIETTIVI
+--------------------------------------------------------------------------------
+Obiettivo occupazione:          60%
+Occupazione attuale:            18.96%
+Settimane da prenotare:         21.3
+Ricavo potenziale:              €25,657.96
+
+RACCOMANDAZIONI STRATEGICHE
+--------------------------------------------------------------------------------
+⚠️  Occupazione bassa - Azioni suggerite:
+   • Riduci prezzi in bassa stagione
+   • Aumenta presenza su piattaforme (Booking, Airbnb)
+   • Investi in marketing (Google Ads, Facebook)
+   • Offerte last-minute
+
+================================================================================

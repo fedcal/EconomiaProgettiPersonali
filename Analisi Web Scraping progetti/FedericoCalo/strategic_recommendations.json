@@ -1,0 +1,306 @@
+{
+  "generated_at": "2026-01-03T15:44:48.416408",
+  "warnings": [
+    {
+      "area": "User Retention",
+      "severity": "ALTA",
+      "issue": "Zero utenti di ritorno su 55 totali",
+      "impact": "Mancanza di fidelizzazione utenti",
+      "recommendation": [
+        "Implementa una newsletter per riportare gli utenti sul sito",
+        "Aggiungi contenuti freschi regolarmente (blog settimanale)",
+        "Crea una sezione \"Progetti in corso\" per incentivare visite ripetute",
+        "Considera notifiche push per nuovi articoli"
+      ]
+    },
+    {
+      "area": "SEO",
+      "severity": "ALTA",
+      "issue": "Solo 1.82% di traffico da ricerca organica",
+      "impact": "Scarsa visibilità su Google",
+      "recommendation": [
+        "Ottimizza meta tags (title, description) per ogni pagina",
+        "Aggiungi schema.org markup (Person, BlogPosting, Article)",
+        "Crea contenuti originali e di valore (tutorial, guide)",
+        "Migliora la velocità di caricamento del sito",
+        "Ottieni backlinks da siti autorevoli (guest posting)",
+        "Usa Google Search Console per identificare opportunità",
+        "Target keywords long-tail specifiche del tuo settore"
+      ]
+    },
+    {
+      "area": "Engagement",
+      "severity": "MEDIA",
+      "issue": "Tempo medio di coinvolgimento: 0.25 minuti",
+      "impact": "Gli utenti abbandonano rapidamente",
+      "recommendation": [
+        "Migliora la leggibilità: paragrafi brevi, liste puntate",
+        "Aggiungi elementi visivi: immagini, code snippets, diagrammi",
+        "Inserisci video o demo interattive",
+        "Hook iniziali più coinvolgenti (intro accattivante)",
+        "Suddividi contenuti lunghi in sezioni con sottotitoli",
+        "Aggiungi table of contents per articoli lunghi",
+        "Riduci distrazioni e elementi non necessari"
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "area": "Traffico",
+      "type": "Opportunità di crescita",
+      "data": "Media 1.96 utenti/giorno",
+      "potential": "Alto potenziale di crescita organica"
+    },
+    {
+      "area": "Traffico Social",
+      "type": "Punto di forza",
+      "data": "58.18% da social media",
+      "action": "Mantenere e potenziare presenza social"
+    },
+    {
+      "area": "Traffico Diretto",
+      "type": "Brand Awareness",
+      "data": "40.0% di traffico diretto",
+      "meaning": "Gli utenti conoscono già il tuo brand/URL"
+    },
+    {
+      "area": "Content",
+      "type": "Top Performing Pages",
+      "data": [
+        {
+          "page": "Federico Calò - Web Developer & Technical Writer | Custom We",
+          "views": 33
+        },
+        {
+          "page": "Federico Calò - Software Developer & Technical Writer | Port",
+          "views": 32
+        },
+        {
+          "page": "Blog Tecnico - Federico Calò | Articoli su Sviluppo Software",
+          "views": 18
+        }
+      ],
+      "action": "Analizza perché queste pagine performano meglio"
+    },
+    {
+      "area": "Blog",
+      "type": "Punto di forza",
+      "data": "18.4% del traffico va al blog",
+      "action": "Il blog funziona - continua a pubblicare!"
+    },
+    {
+      "area": "Geografia",
+      "type": "Concentrazione geografica",
+      "data": "45.1% utenti da US",
+      "implication": "Mercato principale identificato"
+    },
+    {
+      "area": "Reach Internazionale",
+      "type": "Diversificazione",
+      "data": "Utenti da 7 paesi",
+      "meaning": "Buona visibilità internazionale"
+    },
+    {
+      "area": "Crescita",
+      "type": "Trend positivo",
+      "data": "Trend in crescita nel periodo analizzato",
+      "action": "Identifica cosa ha funzionato e replica il successo"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": "MEDIA",
+      "category": "Social Media",
+      "title": "Ottimizza la strategia social",
+      "actions": [
+        "Identifica quale piattaforma social porta più traffico (LinkedIn, Twitter, etc.)",
+        "Pubblica contenuti regolarmente (2-3 volte/settimana)",
+        "Usa hashtag rilevanti per developer (#webdev, #javascript, etc.)",
+        "Condividi snippet di codice e tips dai tuoi articoli",
+        "Interagisci con community di sviluppatori"
+      ]
+    },
+    {
+      "priority": "ALTA",
+      "category": "SEO",
+      "title": "Piano SEO completo",
+      "actions": [
+        "Audit SEO completo con tools (Screaming Frog, Ahrefs)",
+        "Keyword research per il tuo settore",
+        "Ottimizza ogni articolo per 1-2 keywords specifiche",
+        "Crea pillar content (guide complete 2000+ parole)",
+        "Internal linking tra articoli correlati",
+        "Registra il sito su Google Search Console e Bing Webmaster",
+        "Submit sitemap.xml ai motori di ricerca"
+      ]
+    },
+    {
+      "priority": "ALTA",
+      "category": "Retention",
+      "title": "Strategia di fidelizzazione utenti",
+      "actions": [
+        "Newsletter mensile con updates e nuovi articoli",
+        "RSS feed per lettori abituali",
+        "Sezione \"Aggiornamenti recenti\" in homepage",
+        "Call-to-action per seguire sui social",
+        "Series di articoli collegati per incentivare ritorni",
+        "Email course gratuito su un topic specifico",
+        "Considera un mini-tool utile che richieda visite ripetute"
+      ]
+    },
+    {
+      "priority": "MEDIA",
+      "category": "Content Strategy",
+      "title": "Ottimizza i contenuti top",
+      "actions": [
+        "Le tue top 3 pagine generano la maggior parte del traffico",
+        "Aggiungi CTA (Call-to-Action) nelle pagine più visitate",
+        "Link da pagine top a contenuti correlati",
+        "Aggiorna regolarmente i contenuti top con nuove informazioni",
+        "Espandi i topic delle pagine di successo con nuovi articoli",
+        "Aggiungi share buttons social nelle pagine più viste"
+      ]
+    },
+    {
+      "priority": "ALTA",
+      "category": "Content Creation",
+      "title": "Espandi il contenuto del sito",
+      "actions": [
+        "Hai solo 7 pagine indicizzate - crea più contenuto!",
+        "Pubblica almeno 1-2 articoli tecnici al mese",
+        "Crea tutorial step-by-step sui tuoi progetti",
+        "Documenta le sfide tecniche che hai risolto",
+        "Case studies dei tuoi progetti principali",
+        "Guide \"How-to\" su tecnologie che usi",
+        "Considera una sezione FAQ o Resources"
+      ]
+    },
+    {
+      "priority": "BASSA",
+      "category": "Internazionalizzazione",
+      "title": "Ottimizza per mercato USA",
+      "actions": [
+        "Considera contenuti in inglese (se non già presente)",
+        "Orari di pubblicazione allineati con timezone USA",
+        "Esempi e case studies rilevanti per mercato US",
+        "Partecipa a community tech USA (Dev.to, Hashnode, Reddit)",
+        "Networking su LinkedIn con professionisti USA"
+      ]
+    },
+    {
+      "priority": "ALTA",
+      "category": "User Experience",
+      "title": "Migliora l'engagement degli utenti",
+      "actions": [
+        "Audit UX completo del sito",
+        "Verifica velocità caricamento (target < 3 secondi)",
+        "Ottimizza per mobile (responsive design)",
+        "Aggiungi elementi interattivi (code playground, demo)",
+        "Migliora la navigazione (menu chiaro, breadcrumbs)",
+        "Related articles a fine pagina",
+        "Evita popup invasivi che disturbano la lettura"
+      ]
+    },
+    {
+      "priority": "ALTA",
+      "category": "Growth Hacking",
+      "title": "Mantieni e accelera la crescita",
+      "actions": [
+        "Identifica i canali che hanno portato più traffico",
+        "Analizza quali contenuti hanno performato meglio",
+        "Raddoppia gli sforzi sui canali di successo",
+        "Pubblica con maggiore frequenza",
+        "Cross-posting su piattaforme multiple (Dev.to, Medium, Hashnode)",
+        "Collaborazioni con altri developer/blogger",
+        "Partecipa attivamente a discussion su social/forum"
+      ]
+    }
+  ],
+  "priority_matrix": {
+    "immediate_action": [
+      {
+        "priority": "ALTA",
+        "category": "SEO",
+        "title": "Piano SEO completo",
+        "actions": [
+          "Audit SEO completo con tools (Screaming Frog, Ahrefs)",
+          "Keyword research per il tuo settore",
+          "Ottimizza ogni articolo per 1-2 keywords specifiche",
+          "Crea pillar content (guide complete 2000+ parole)",
+          "Internal linking tra articoli correlati",
+          "Registra il sito su Google Search Console e Bing Webmaster",
+          "Submit sitemap.xml ai motori di ricerca"
+        ]
+      },
+      {
+        "priority": "ALTA",
+        "category": "Retention",
+        "title": "Strategia di fidelizzazione utenti",
+        "actions": [
+          "Newsletter mensile con updates e nuovi articoli",
+          "RSS feed per lettori abituali",
+          "Sezione \"Aggiornamenti recenti\" in homepage",
+          "Call-to-action per seguire sui social",
+          "Series di articoli collegati per incentivare ritorni",
+          "Email course gratuito su un topic specifico",
+          "Considera un mini-tool utile che richieda visite ripetute"
+        ]
+      },
+      {
+        "priority": "ALTA",
+        "category": "Content Creation",
+        "title": "Espandi il contenuto del sito",
+        "actions": [
+          "Hai solo 7 pagine indicizzate - crea più contenuto!",
+          "Pubblica almeno 1-2 articoli tecnici al mese",
+          "Crea tutorial step-by-step sui tuoi progetti",
+          "Documenta le sfide tecniche che hai risolto",
+          "Case studies dei tuoi progetti principali",
+          "Guide \"How-to\" su tecnologie che usi",
+          "Considera una sezione FAQ o Resources"
+        ]
+      }
+    ],
+    "short_term": [
+      {
+        "priority": "MEDIA",
+        "category": "Social Media",
+        "title": "Ottimizza la strategia social",
+        "actions": [
+          "Identifica quale piattaforma social porta più traffico (LinkedIn, Twitter, etc.)",
+          "Pubblica contenuti regolarmente (2-3 volte/settimana)",
+          "Usa hashtag rilevanti per developer (#webdev, #javascript, etc.)",
+          "Condividi snippet di codice e tips dai tuoi articoli",
+          "Interagisci con community di sviluppatori"
+        ]
+      },
+      {
+        "priority": "MEDIA",
+        "category": "Content Strategy",
+        "title": "Ottimizza i contenuti top",
+        "actions": [
+          "Le tue top 3 pagine generano la maggior parte del traffico",
+          "Aggiungi CTA (Call-to-Action) nelle pagine più visitate",
+          "Link da pagine top a contenuti correlati",
+          "Aggiorna regolarmente i contenuti top con nuove informazioni",
+          "Espandi i topic delle pagine di successo con nuovi articoli",
+          "Aggiungi share buttons social nelle pagine più viste"
+        ]
+      }
+    ],
+    "long_term": [
+      {
+        "priority": "BASSA",
+        "category": "Internazionalizzazione",
+        "title": "Ottimizza per mercato USA",
+        "actions": [
+          "Considera contenuti in inglese (se non già presente)",
+          "Orari di pubblicazione allineati con timezone USA",
+          "Esempi e case studies rilevanti per mercato US",
+          "Partecipa a community tech USA (Dev.to, Hashnode, Reddit)",
+          "Networking su LinkedIn con professionisti USA"
+        ]
+      }
+    ]
+  }
+}

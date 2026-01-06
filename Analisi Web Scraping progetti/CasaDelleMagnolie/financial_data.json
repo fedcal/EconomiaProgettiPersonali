@@ -1,0 +1,280 @@
+{
+  "project_info": {
+    "name": "Casa delle Magnolie",
+    "type": "Vacation Rental",
+    "start_date": "2025-01-01",
+    "currency": "EUR"
+  },
+  "one_time_costs": [
+    {
+      "name": "Foto professionali",
+      "amount": 250.0,
+      "date": "2025-03-01",
+      "category": "Marketing"
+    },
+    {
+      "name": "Restyling arredamento",
+      "amount": 1500.0,
+      "date": "2025-02-15",
+      "category": "Property"
+    },
+    {
+      "name": "Nuovi elettrodomestici",
+      "amount": 800.0,
+      "date": "2025-02-20",
+      "category": "Property"
+    },
+    {
+      "name": "Traduzione sito EN/DE",
+      "amount": 300.0,
+      "date": "2025-03-10",
+      "category": "Marketing"
+    },
+    {
+      "name": "Biancheria nuova (lenzuola, asciugamani)",
+      "amount": 400.0,
+      "date": "2025-03-01",
+      "category": "Property"
+    }
+  ],
+  "recurring_costs": [
+    {
+      "name": "Hosting sito web",
+      "amount": 10.0,
+      "frequency": "monthly",
+      "category": "Infrastructure",
+      "start_date": "2025-01-01"
+    },
+    {
+      "name": "Assicurazione casa vacanze",
+      "amount": 45.0,
+      "frequency": "monthly",
+      "category": "Insurance",
+      "start_date": "2025-01-01"
+    },
+    {
+      "name": "Pulizie dopo check-out",
+      "amount": 80.0,
+      "frequency": "monthly",
+      "category": "Operations",
+      "start_date": "2025-04-01"
+    },
+    {
+      "name": "Utenze (acqua, luce, gas)",
+      "amount": 120.0,
+      "frequency": "monthly",
+      "category": "Utilities",
+      "start_date": "2025-01-01"
+    },
+    {
+      "name": "Manutenzione ordinaria",
+      "amount": 100.0,
+      "frequency": "monthly",
+      "category": "Maintenance",
+      "start_date": "2025-01-01"
+    },
+    {
+      "name": "Internet/WiFi",
+      "amount": 35.0,
+      "frequency": "monthly",
+      "category": "Utilities",
+      "start_date": "2025-01-01"
+    }
+  ],
+  "revenue_streams": [
+    {
+      "name": "Prenotazione 2025-07-05",
+      "amount": 1020.0,
+      "date": "2025-07-05",
+      "source": "Booking.com",
+      "type": "booking"
+    },
+    {
+      "name": "Prenotazione 2025-07-14",
+      "amount": 1204.0,
+      "date": "2025-07-14",
+      "source": "Airbnb",
+      "type": "booking"
+    },
+    {
+      "name": "Prenotazione 2025-07-23",
+      "amount": 1300.0,
+      "date": "2025-07-23",
+      "source": "Direct",
+      "type": "booking"
+    },
+    {
+      "name": "Prenotazione 2025-08-02",
+      "amount": 1147.5,
+      "date": "2025-08-02",
+      "source": "Booking.com",
+      "type": "booking"
+    },
+    {
+      "name": "Prenotazione 2025-08-11",
+      "amount": 1290.0,
+      "date": "2025-08-11",
+      "source": "Airbnb",
+      "type": "booking"
+    },
+    {
+      "name": "Prenotazione 2025-08-20",
+      "amount": 1276.0,
+      "date": "2025-08-20",
+      "source": "VRBO",
+      "type": "booking"
+    },
+    {
+      "name": "Prenotazione 2025-06-07",
+      "amount": 765.0,
+      "date": "2025-06-07",
+      "source": "Booking.com",
+      "type": "booking"
+    },
+    {
+      "name": "Prenotazione 2025-06-21",
+      "amount": 850.0,
+      "date": "2025-06-21",
+      "source": "Direct",
+      "type": "booking"
+    },
+    {
+      "name": "Prenotazione 2025-09-06",
+      "amount": 688.0,
+      "date": "2025-09-06",
+      "source": "Airbnb",
+      "type": "booking"
+    },
+    {
+      "name": "Prenotazione 2025-04-18",
+      "amount": 600.0,
+      "date": "2025-04-18",
+      "source": "Direct",
+      "type": "booking"
+    },
+    {
+      "name": "Prenotazione 2025-05-01",
+      "amount": 425.0,
+      "date": "2025-05-01",
+      "source": "Booking.com",
+      "type": "booking"
+    }
+  ],
+  "projections": [],
+  "bookings": [
+    {
+      "checkin": "2025-07-05",
+      "checkout": "2025-07-12",
+      "guests": 6,
+      "nights": 7,
+      "price": 1200.0,
+      "price_per_night": 171.43,
+      "platform": "Booking.com",
+      "commission": 180.0
+    },
+    {
+      "checkin": "2025-07-14",
+      "checkout": "2025-07-21",
+      "guests": 8,
+      "nights": 7,
+      "price": 1400.0,
+      "price_per_night": 200.0,
+      "platform": "Airbnb",
+      "commission": 196.0
+    },
+    {
+      "checkin": "2025-07-23",
+      "checkout": "2025-07-30",
+      "guests": 7,
+      "nights": 7,
+      "price": 1300.0,
+      "price_per_night": 185.71,
+      "platform": "Direct",
+      "commission": 0.0
+    },
+    {
+      "checkin": "2025-08-02",
+      "checkout": "2025-08-09",
+      "guests": 6,
+      "nights": 7,
+      "price": 1350.0,
+      "price_per_night": 192.86,
+      "platform": "Booking.com",
+      "commission": 202.5
+    },
+    {
+      "checkin": "2025-08-11",
+      "checkout": "2025-08-18",
+      "guests": 9,
+      "nights": 7,
+      "price": 1500.0,
+      "price_per_night": 214.29,
+      "platform": "Airbnb",
+      "commission": 210.0
+    },
+    {
+      "checkin": "2025-08-20",
+      "checkout": "2025-08-27",
+      "guests": 8,
+      "nights": 7,
+      "price": 1450.0,
+      "price_per_night": 207.14,
+      "platform": "VRBO",
+      "commission": 174.0
+    },
+    {
+      "checkin": "2025-06-07",
+      "checkout": "2025-06-14",
+      "guests": 6,
+      "nights": 7,
+      "price": 900.0,
+      "price_per_night": 128.57,
+      "platform": "Booking.com",
+      "commission": 135.0
+    },
+    {
+      "checkin": "2025-06-21",
+      "checkout": "2025-06-28",
+      "guests": 5,
+      "nights": 7,
+      "price": 850.0,
+      "price_per_night": 121.43,
+      "platform": "Direct",
+      "commission": 0.0
+    },
+    {
+      "checkin": "2025-09-06",
+      "checkout": "2025-09-13",
+      "guests": 6,
+      "nights": 7,
+      "price": 800.0,
+      "price_per_night": 114.29,
+      "platform": "Airbnb",
+      "commission": 112.0
+    },
+    {
+      "checkin": "2025-04-18",
+      "checkout": "2025-04-21",
+      "guests": 8,
+      "nights": 3,
+      "price": 600.0,
+      "price_per_night": 200.0,
+      "platform": "Direct",
+      "commission": 0.0
+    },
+    {
+      "checkin": "2025-05-01",
+      "checkout": "2025-05-04",
+      "guests": 6,
+      "nights": 3,
+      "price": 500.0,
+      "price_per_night": 166.67,
+      "platform": "Booking.com",
+      "commission": 75.0
+    }
+  ],
+  "occupancy": {
+    "total_weeks": 52,
+    "booked_weeks": 9.857142857142858
+  }
+}

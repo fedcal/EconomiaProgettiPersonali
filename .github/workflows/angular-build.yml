@@ -1,0 +1,44 @@
+name: Angular Build
+
+on:
+  push:
+    branches: [ master, develop ]
+    paths:
+      - 'managementprojecteconomy/frontend/**'
+      - '.github/workflows/angular-build.yml'
+  pull_request:
+    branches: [ master, develop ]
+    paths:
+      - 'managementprojecteconomy/frontend/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        cache: 'npm'
+        cache-dependency-path: 'managementprojecteconomy/frontend/package-lock.json'
+    
+    - name: Install dependencies
+      working-directory: ./managementprojecteconomy/frontend
+      run: npm ci
+    
+    - name: Build
+      working-directory: ./managementprojecteconomy/frontend
+      run: npm run build
+    
+    - name: Run tests
+      working-directory: ./managementprojecteconomy/frontend
+      run: npm test
+      continue-on-error: true
+    
+    - name: Lint
+      working-directory: ./managementprojecteconomy/frontend
+      run: npm run lint
+      continue-on-error: true

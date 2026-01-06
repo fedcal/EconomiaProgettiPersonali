@@ -1,0 +1,16 @@
+# Default code owners
+* @fedcal
+
+# Python projects
+/Analisi\ Web\ Scraping\ progetti/ @fedcal
+*.py @fedcal
+
+# Java backend
+/managementprojecteconomy/backend/ @fedcal
+
+# Angular frontend
+/managementprojecteconomy/frontend/ @fedcal
+
+# Documentation
+/Documentazione/ @fedcal
+*.md @fedcal

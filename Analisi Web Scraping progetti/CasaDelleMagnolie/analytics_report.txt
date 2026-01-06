@@ -1,0 +1,50 @@
+================================================================================
+REPORT ANALYTICS - CASADELLEMAGNOLIE.COM
+================================================================================
+
+Periodo analizzato: 2025-12-06 - 2026-01-02
+Durata: 28 giorni
+
+UTENTI
+--------------------------------------------------------------------------------
+Utenti attivi totali: 31
+Nuovi utenti: 31
+Utenti di ritorno: 0
+Media utenti giornalieri: 1.11
+Picco utenti: 19 (giorno 21)
+Trend: crescita
+
+SORGENTI TRAFFICO
+--------------------------------------------------------------------------------
+Direct: 16 utenti (51.61%)
+Organic Social: 14 utenti (45.16%)
+Organic Search: 1 utenti (3.23%)
+Sorgente principale: Direct
+
+DISTRIBUZIONE GEOGRAFICA
+--------------------------------------------------------------------------------
+Paesi raggiunti: 7
+Paese principale: IT (14 utenti)
+
+Top 5 paesi:
+  IT: 14 utenti (45.16%)
+  US: 10 utenti (32.26%)
+  CA: 2 utenti (6.45%)
+  TW: 2 utenti (6.45%)
+  AT: 1 utenti (3.23%)
+
+CONTENUTI
+--------------------------------------------------------------------------------
+Visualizzazioni totali: 36
+Pagine uniche: 1
+Eventi totali: 110
+
+Top 5 pagine:
+  1. Casa delle Magnolie Gallipoli | Casa Vacanze Baia Verde a 200m dal Mar... (36 views)
+
+COINVOLGIMENTO
+--------------------------------------------------------------------------------
+Tempo medio di coinvolgimento: 0.02 minuti
+Giorni con utenti coinvolti: 3
+
+================================================================================

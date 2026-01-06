@@ -1,0 +1,88 @@
+{
+  "period": {
+    "start": "2025-12-06",
+    "end": "2026-01-02",
+    "duration_days": 28
+  },
+  "users": {
+    "total_active_users": 55,
+    "total_new_users": 55,
+    "returning_users": 0,
+    "avg_daily_users": 1.96,
+    "peak_day": 23,
+    "peak_day_users": 23,
+    "growth_trend": "crescita"
+  },
+  "traffic_sources": {
+    "new_users_by_source": {
+      "Organic Social": 32,
+      "Direct": 22,
+      "Organic Search": 1
+    },
+    "sessions_by_source": {
+      "Organic Social": 32,
+      "Direct": 22,
+      "Organic Search": 2
+    },
+    "total_new_users": 55,
+    "total_sessions": 56,
+    "top_source": "Organic Social",
+    "source_percentages": {
+      "Organic Social": 58.18,
+      "Direct": 40.0,
+      "Organic Search": 1.82
+    }
+  },
+  "geography": {
+    "countries": {
+      "US": 23,
+      "IT": 15,
+      "SE": 6,
+      "CA": 2,
+      "IE": 2,
+      "IN": 2,
+      "CH": 1
+    },
+    "total_users": 51,
+    "top_country": "US",
+    "top_country_users": 23,
+    "country_count": 7,
+    "country_percentages": {
+      "US": 45.1,
+      "IT": 29.41,
+      "SE": 11.76,
+      "CA": 3.92,
+      "IE": 3.92,
+      "IN": 3.92,
+      "CH": 1.96
+    }
+  },
+  "content": {
+    "total_pageviews": 98,
+    "unique_pages": 7,
+    "top_page": "Federico Calò - Web Developer & Technical Writer | Custom Websites SEO-Optimized",
+    "top_page_views": 33,
+    "pages": {
+      "Federico Calò - Web Developer & Technical Writer | Custom Websites SEO-Optimized": 33,
+      "Federico Calò - Software Developer & Technical Writer | Portfolio": 32,
+      "Blog Tecnico - Federico Calò | Articoli su Sviluppo Software": 18,
+      "Servizi & Strumenti - Federico Calò | Analisi Dati, Automazione, Sistemi Custom": 6,
+      "Servizi Professionali - Federico Calò | Sviluppo Siti Web SEO & Mobile-First": 4,
+      "Progetti Personali - Federico Calò | Portfolio Side Projects": 3,
+      "02 - Incapsulamento in OOP: Proteggere e Nascondere i Dati - Federico Calò": 2
+    },
+    "events": {
+      "page_view": 98,
+      "session_start": 56,
+      "first_visit": 55,
+      "user_engagement": 13,
+      "scroll": 12
+    },
+    "total_events": 234
+  },
+  "engagement": {
+    "avg_engagement_seconds": 14.82,
+    "avg_engagement_minutes": 0.25,
+    "engaged_days": 5
+  }
+}
